@@ -3,6 +3,8 @@ package mx.com.mvtech.myownpost.navigation
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
+import mx.com.mvtech.myownpost.features.login.navigation.loginScreen
+import mx.com.mvtech.myownpost.features.login.navigation.navigateToLoginScreen
 import mx.com.mvtech.myownpost.ui.screens.splash.navigation.splashScreen
 import mx.com.mvtech.myownpost.ui.screens.splash.navigation.splashScreenNavigationRoute
 
@@ -20,7 +22,8 @@ fun MyOwnPOSTNavHost(
         modifier = modifier,
     ) {
         splashScreen(
-            onFinishLoad = navController::navigateToLogin
+            onFinishLoad = navController::navigateToLoginScreen
         )
+        loginScreen()
     }
 }

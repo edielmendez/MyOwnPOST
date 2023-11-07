@@ -113,12 +113,13 @@ class MopAppState(
         }
     }*/
 
-    fun navigateToSearch() {
+    /*fun navigateToSearch() {
         navController.navigateToLogin()
-    }
+    }*/
 }
 
+/*
 const val loginRoute = "login_route"
 fun NavController.navigateToLogin(navOptions: NavOptions? = null) {
     this.navigate(loginRoute, navOptions)
-}
+}*/
