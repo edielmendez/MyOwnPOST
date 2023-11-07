@@ -18,12 +18,13 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyOwnPOSTTheme {
                 // A surface container using the 'background' color from the theme
-                Surface(
+                MyOwnPOSTApp()
+                /*Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
                     Greeting("Android")
-                }
+                }*/
             }
         }
     }
