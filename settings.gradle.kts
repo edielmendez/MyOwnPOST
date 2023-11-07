@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "MyOwnPOST"
 include(":app")
+include(":Features:login")
